@@ -2,7 +2,7 @@ import {
   Character,
   type CharacterDataStructure,
   type CharacterStructure,
-} from "../Character/Character.js";
+} from "../Character/Character";
 
 export interface FighterStructure extends CharacterStructure {
   weapon: string;
