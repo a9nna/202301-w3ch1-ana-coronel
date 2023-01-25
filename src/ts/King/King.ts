@@ -6,6 +6,7 @@ import {
 
 export interface KingStructure extends CharacterStructure {
   yearsOfReign: number;
+  element: Element;
 }
 
 export class King extends Character implements KingStructure {
