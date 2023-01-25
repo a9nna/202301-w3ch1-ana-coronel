@@ -6,6 +6,7 @@ export interface CharacterDataStructure {
 }
 
 export interface CharacterStructure {
+  element: Element;
   characterData: CharacterDataStructure;
   isAlive: boolean;
   series: string;
@@ -14,6 +15,7 @@ export interface CharacterStructure {
 }
 
 export class Character implements CharacterStructure {
+  element: Element;
   public isAlive = true;
   public series = "Game of Thrones";
 
